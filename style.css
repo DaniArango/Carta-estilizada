@@ -3,11 +3,18 @@ body{
     
     background-image: url(img/fondo-estructura-molecular_1262-7390.jpg);
     font-family: 'Kotta One', serif; 
-    border: 3px solid black;
-    border-style: outset;
-    border-radius: 50px 0px 50px 0px ;
-    padding: 20px;
+    
   
+}
+
+.carta{
+ background-color: whitesmoke;
+ width: 70%;
+ border: 3px solid black;
+ border-style: outset;
+ border-radius: 50px 0px 50px 0px ;
+ padding: 20px;
+ margin: 5% 13% 
 }
 
 .p1 {
@@ -44,7 +51,7 @@ body{
 }
 
 div { 
-  width: 55px;
+  width: 800px;
   border: 1px solid black;
  }
 
@@ -72,9 +79,8 @@ writing-mode: vertical-lr;
  word-spacing: 40px;
 
   }
-  blockquote {
+  q {
     quotes: "«" "»";
   }
-  blockquote:before { content: open-quote; }
-  blockquote:after  { content: close-quote; }
+  
   
