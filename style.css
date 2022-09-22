@@ -1,0 +1,80 @@
+
+body{
+    
+    background-image: url(img/fondo-estructura-molecular_1262-7390.jpg);
+    font-family: 'Kotta One', serif; 
+    border: 3px solid black;
+    border-style: outset;
+    border-radius: 50px 0px 50px 0px ;
+    padding: 20px;
+  
+}
+
+.p1 {
+    color: #5D0E6D;
+    font-family: 'Akaya Telivigala', cursive;
+    font-size: 20px;
+    text-align: right
+
+  }
+
+.p2{    
+  color: #5D0E6D;
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+  text-align: left
+}
+
+/* This is a single-line comment */
+.p3{
+  color: rgb(69, 19, 206);
+  text-decoration-line: underline;
+  
+}
+
+.p4{
+ line-height: 80%;
+}
+  
+.p5{
+  width: 800px;
+  border: 1px solid black;
+  word-wrap: break-word;
+
+}
+
+div { 
+  width: 55px;
+  border: 1px solid black;
+ }
+
+div.a{
+  -webkit-hyphens: none;
+  -ms-hyphens: none;
+  hyphens: none;
+
+}
+
+.h2, h3{
+     color: #8A15A2;
+  }
+
+  .vertical{
+    vertical-align:super;
+  }
+
+  .wm{
+writing-mode: vertical-lr;
+
+  }
+
+  .sp{
+ word-spacing: 40px;
+
+  }
+  blockquote {
+    quotes: "«" "»";
+  }
+  blockquote:before { content: open-quote; }
+  blockquote:after  { content: close-quote; }
+  
